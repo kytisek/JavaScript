@@ -19,10 +19,14 @@ const czter = document.querySelector("section.main_column h1");
 console.log(czter);
 czter.innerHTML = 'Specjalność szefa';
 //5
-const piat = document.createElement("p");
+const piat = document.createElement("p"); //dodawanie elementów
 piat.innerHTML = 'Kebab na frytkach _-_';
 console.log({piat});
 const kolumna = document.querySelector(".main_column")
 kolumna.appendChild(piat);
 
 //6
+const szust = document.querySelector( ".side_column ")
+console.log({szust});
+const dele = document.removeChild("h1");
+szust.log(dele)
