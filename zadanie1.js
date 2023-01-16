@@ -31,5 +31,15 @@ console.log({szust});
 szust[1].remove();
 
 //7
-const siud = document.querySelector();
-console.log(siud);
+const siud = document.createElement("div");
+console.log({siud});
+const foots = document.querySelector("footer");
+foots.appendChild(siud);
+const tykst = document.createElement("p");
+console.log({tykst});
+tykst.innerHTML = '&copy';
+siud.appendChild(tykst);
+siud.style.backgroundColor = "pink";
+
+
+
