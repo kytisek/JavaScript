@@ -26,7 +26,10 @@ const kolumna = document.querySelector(".main_column")
 kolumna.appendChild(piat);
 
 //6
-const szust = document.querySelector( ".side_column ")
+const szust = document.querySelectorAll( ".side_column");
 console.log({szust});
-const dele = document.removeChild("h1");
-szust.log(dele)
+szust[1].remove();
+
+//7
+const siud = document.querySelector();
+console.log(siud);
