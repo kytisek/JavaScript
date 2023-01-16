@@ -40,6 +40,3 @@ console.log({tykst});
 tykst.innerHTML = '&copy';
 siud.appendChild(tykst);
 siud.style.backgroundColor = "pink";
-
-
-
