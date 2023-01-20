@@ -21,7 +21,12 @@ tre.addEventListener('click',()=>{oknoConfirm()})
 console.log(tre)
 //4
 function oknoPrompt(){
-
+    let prom = prompt('Podaj swoje imię:')
+    if (prom)
+        alert('Witaj ' + prom )
+    else
+        alert('Anulowałeś akcję, a okienko zwróciło ' + prom )
 }
 const cre = document.querySelector("#cry")
 cre.addEventListener('click', ()=>{oknoPrompt()})
+console.log(cre)
