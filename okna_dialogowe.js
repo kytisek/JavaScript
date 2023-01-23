@@ -29,4 +29,3 @@ function oknoPrompt(){
 }
 const cre = document.querySelector("#cry")
 cre.addEventListener('click', ()=>{oknoPrompt()})
-console.log(cre)

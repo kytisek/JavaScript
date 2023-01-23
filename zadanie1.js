@@ -40,3 +40,12 @@ console.log({tykst});
 tykst.innerHTML = '&copy';
 siud.appendChild(tykst);
 siud.style.backgroundColor = "pink";
+
+//8
+const uno = document.createElement("p");
+
+const dwo = document.createElement("p");
+
+uno[0].innerHTML = 'Pochylony tekst';
+console.log({uno});
+console.log({dwo});
