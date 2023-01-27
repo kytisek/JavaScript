@@ -42,10 +42,30 @@ siud.appendChild(tykst);
 siud.style.backgroundColor = "pink";
 
 //8
+const ine = document.querySelector('header')
 const uno = document.createElement("p");
-
+const tyk = document.createElement("i")
 const dwo = document.createElement("p");
-
-uno[0].innerHTML = 'Pochylony tekst';
-console.log({uno});
+const tuk = document.createElement("i");
+uno.appendChild(tyk);
+dwo.appendChild(tuk);
+tyk.innerHTML = 'Pochylony tekst';
+tuk.innerText = 'Pochylony tekst';
+console.log({uno})
 console.log({dwo});
+console.log(ine);
+ine.appendChild(uno);
+ine.appendChild(dwo);
+
+
+//9
+const nine = document.createElement("section");
+console.log({nine});
+const bdy = document.querySelector("body")
+bdy.appendChild(nine);
+nine.style.border = "2px dotted blue";
+nine.style.marginTop = "10px";
+nine.style.marginBottom = "10px";
+nine.style.marginLeft = "20px";
+nine.style.marginRight = "20px";
+nine.innerHTML = 'Zderzak';
