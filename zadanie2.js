@@ -10,6 +10,12 @@ two.addEventListener("click", function(){
 });
 //3
 const tre = document.getElementById("z3");
-tre.addEventListener("click", function(){
-    document.getElementById('');
+tre.addEventListener("click", function() {
+    const tra = document.querySelector("#z3");
+    console.log(tra);
 
+
+
+    tre.style.border = "10px dotted green";
+
+})
