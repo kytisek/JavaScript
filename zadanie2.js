@@ -9,13 +9,15 @@ two.addEventListener("click", function(){
     document.getElementById('z2').innerText = "<i>Swietnie!</i>";
 });
 //3
-const tre = document.getElementById("z3");
-tre.addEventListener("click", function() {
-    const tra = document.querySelector("#z3");
+document.querySelector("#z3").addEventListener("click", function (){
+    const tre = document.querySelector("#d3");
+    const tra = tre.querySelectorAll("*");
     console.log(tra);
 
-
-
-    tre.style.border = "10px dotted green";
+    for (const el of tra) {
+        if (el.tagName === "STRONG") {
+            el.style.border = "10px dotted green"
+        }
+    }
 
 })
