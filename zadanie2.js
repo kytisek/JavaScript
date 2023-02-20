@@ -36,3 +36,9 @@ piate.addEventListener("click", function() {
 });
 
 //6
+//const shust = document.querySelector("#z6");
+//shust.addEventListener("click", function (){
+   //const suno = document.querySelector("#h6")
+    //if.(suno.hasAttribute('disabled'))
+    //suno.innerHTML = 'Można edytować'
+//})
