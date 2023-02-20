@@ -21,3 +21,18 @@ document.querySelector("#z3").addEventListener("click", function (){
     }
 
 })
+//4
+document.querySelector("#z4").addEventListener("click", function (){
+alert(document.querySelector("#p4").getAttribute('title'));
+
+})
+
+//5
+const piate = document.querySelector("#z5")
+piate.addEventListener("click", function() {
+    const piece = document.querySelector("#p5");
+    piece.setAttribute('cos', 'rtl');
+    console.log(piece);
+});
+
+//6
