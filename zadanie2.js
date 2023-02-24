@@ -61,3 +61,6 @@ sieb.addEventListener("click", function () {
     console.log(siebe);
     console.log(sieben);
 })
+
+
+//8
