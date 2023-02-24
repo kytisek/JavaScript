@@ -61,3 +61,21 @@ sieb.addEventListener("click", function () {
     console.log(siebe);
     console.log(sieben);
 })
+
+
+
+//8
+const eigh = document.querySelector('#z8')
+eigh.addEventListener("click", function (){
+    const eig = document.querySelector('#zh8').dataset;
+    const eighteen = document.querySelector('#zh8').attributes;
+    console.log(eig);
+    console.log(ei);
+for (const attribute of eighteen) {
+    let  para = document.createElement("p");
+    para.innerHTML = "Atrybut: <b>" + attribute.nodeName +
+        "</b> ma wartość </b>" + attribute.nodeValue + "</b>";
+    eighteen.appendChild(para);
+}
+
+})
