@@ -36,11 +36,28 @@ piate.addEventListener("click", function() {
 });
 
 //6
-document.querySelector("#z6").addEventListener("click", function (){
-   const toggleEditButton = document.querySelector("#z6")
-    const editElement = document.querySelector("#h6");
-    if (editElement.hasAttribute("disabled")) {
-        toggleEditButton.innerText =
-    }
-    suno.innerHTML = 'Można edytować'
+const six = document.querySelector("#z6")
+six.addEventListener("click", function() {
+        const sixe = document.querySelector("#h6");
+        if(sixe.hasAttribute('disabled')) {
+            document.querySelector("#h6").disabled = false
+            sixe.innerHTML = 'Można edytować';
+        }
+        else {
+            document.querySelector("#h6").disabled = true
+            sixe.innerHTML = 'Nie można edytować'
+        }
+        console.log(sixe)
+    });
+
+//7
+const sieb = document.querySelector('#z7')
+sieb.addEventListener("click", function () {
+    const siebe = document.querySelector('#ps7')
+    const sieben = document.querySelector('#pa7')
+    siebe.removeAttribute('style')
+    sieben.removeAttribute('href')
+
+    console.log(siebe);
+    console.log(sieben);
 })
