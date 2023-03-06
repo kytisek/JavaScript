@@ -10,16 +10,15 @@ function op(obj, id) {
         if (elements[i].id === obj) {
             if (elements[i].style.display === "none") {
                 elements[i].style.display = "block";
-                document.getElementById(id).innerHTML = "&#8911;";
+                document.getElementById(id).innerHTML = "&#8659;";
                 document.getElementById(id).href = "#";
             } else {
                 elements[i].style.display = "none";
-                document.getElementById(id).innerHTML = "&#8911;";
+                document.getElementById(id).innerHTML = "&#8657;";
                 document.getElementById(id).href = "/";
             }
-        } else {
-            elements[i].style.display = "none";
         }
+
     }
     return false;
 }
