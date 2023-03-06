@@ -79,3 +79,21 @@ for (const attribute of eighteen) {
 }
 
 })
+
+//9
+const dzie = document.querySelector('#guzik9')
+dzie.addEventListener("click", function () {
+    let letters = '0123456789ABCDEF';
+    let index1 = Math.floor(Math.random() * 16);
+    let index2 = Math.floor(Math.random() * 16);
+    let index3 = Math.floor(Math.random() * 16);
+    let index4 = Math.floor(Math.random() * 16);
+    let index5 = Math.floor(Math.random() * 16);
+    let index6 = Math.floor(Math.random() * 16);
+
+    let color = '#' + letters[index1] + letters[index2] + letters[index3]
+        + letters[index4] + letters[index5] + letters[index6];
+
+    console.log(color);
+    document.querySelector("#tekstari").style.backgroundColor = color;
+});
