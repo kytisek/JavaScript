@@ -10,11 +10,11 @@ function op(obj, id) {
         if (elements[i].id === obj) {
             if (elements[i].style.display === "none") {
                 elements[i].style.display = "block";
-                document.getElementById(id).innerHTML = "&#8960;";
+                document.getElementById(id).innerHTML = "&#8911;";
                 document.getElementById(id).href = "#";
             } else {
                 elements[i].style.display = "none";
-                document.getElementById(id).innerHTML = "&#8965;";
+                document.getElementById(id).innerHTML = "&#8911;";
                 document.getElementById(id).href = "/";
             }
         } else {
