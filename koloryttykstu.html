@@ -7,21 +7,23 @@
     <style>
 
         td{
-
             width: 30px;
             padding: 30px;
+        }
+        table{
+            border-collapse: collapse;
         }
     </style>
 </head>
 <body>
-<h1>Zmień kolor tekstu</h1>
+<h1 id="uno">Zmień kolor tekstu</h1>
 <table>
     <tbody>
     <tr id="tr1">
-        <td id="raz" style="background-color: gold">gold</td>
-        <td id="dwa" style="background-color: khaki">khaki</td>
-        <td id="trzy" style="background-color: silver">silver</td>
-        <td id="cztery" style="background-color: peru">peru</td>
+        <td id="raz" style="background-color: gold" onmouseover="uno.style.color='gold'">gold</td>
+        <td id="dwa" style="background-color: khaki" onmouseover="uno.style.color='khaki'">khaki</td>
+        <td  style="background-color: silver"onmouseover="uno.style.color='silver'">silver</td>
+        <td id="cztery" style="background-color: peru" onmouseover="uno.style.color='peru'">peru</td>
     </tr>
     </tbody>
 </table>
