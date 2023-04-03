@@ -1,3 +1,7 @@
-const uno = document.addEventListener('click', function (){
+const uno = document.getElementsByClassName('flaczek')
+document.addEventListener('click', function (){
+    document.getElementsByClassName('hide_number')
+
+
 
                                                          });
