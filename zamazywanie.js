@@ -1,7 +1,10 @@
-const uno = document.getElementsByClassName('flaczek')
-document.addEventListener('click', function (){
-    document.getElementsByClassName('hide_number')
+const uno = document.getElementById('flaczek')
 
+uno.addEventListener('change', function (){
+    if (this.checked){
+        uno.document.remove('.hide_number');
+    }
+    else {
 
-
+    }
                                                          });
