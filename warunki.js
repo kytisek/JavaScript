@@ -49,3 +49,6 @@ console.log(sign);
 const short = (i > 0) ? "dodatnia" : "niedodatnia";
 console.log(short);
 
+const x = 23;
+const  isEven = (x % 2 === 0) ? "parzysta" : "nieparzysta";
+console.log(isEven);
