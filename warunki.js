@@ -35,3 +35,17 @@ if (rand < 3) {
 } else {
     console.log("Liczba jest większa od 6");
 }
+console.log(rand);
+
+const i = -11;
+let sign = "";
+if (i > 0) {
+    sign = "dodatnia";
+} else {
+    sign = "ujemna";
+}
+console.log(sign);
+
+const short = (i > 0) ? "dodatnia" : "niedodatnia";
+console.log(short);
+
