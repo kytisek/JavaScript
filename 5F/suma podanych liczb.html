@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="text/javascript">
+        function oblicz_sume()
+        {
+            var liczba1 = document.getElementById("1lib").value;
+            var liczba2 = document.getElementById("2lib").value;
+            var suma= parseInt(liczba1)+parseInt(liczba2);
+
+            document.getElementById("wyni").innerHTML = suma;
+        }
+    </script>
+</head>
+<style>
+    #1lib{
+        margin-left: 20px;
+        width: 90px;
+    }
+    #2lib{
+        margin-left: 20px;
+        width: 90px;
+    }
+    #btnal{
+        margin-left: 20px;
+        width: 90px;
+    }
+</style>
+<body>
+
+
+    <div class="row g-3">
+
+        <input type="text" class="form-control " id="1lib" placeholder="6">
+
+
+        <input type="text" class="form-control " id="2lib" placeholder="9">
+
+        <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnal"  onclick="oblicz_sume()">
+            Oblicz sumę
+        </button>
+    </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Suma podanych liczb</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="wyni">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
