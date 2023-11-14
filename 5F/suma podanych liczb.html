@@ -18,27 +18,32 @@
 </head>
 <style>
     #1lib{
-        margin-left: 20px;
-        width: 90px;
+        width: 120px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 10px;
     }
     #2lib{
+        margin-top: 10px;
+        width: 120px;
         margin-left: 20px;
-        width: 90px;
     }
     #btnal{
+        margin-top: 10px;
         margin-left: 20px;
-        width: 90px;
+        height: 40px;
+        border-radius: 10px;
     }
 </style>
 <body>
 
 
-    <div class="row g-3">
+    <div class="input-group flex-nowrap">
 
-        <input type="text" class="form-control " id="1lib" placeholder="6">
+        <p><input type="text" class="form-control " id="1lib" placeholder="6"></p>
 
 
-        <input type="text" class="form-control " id="2lib" placeholder="9">
+        <p><input type="text" class="form-control " id="2lib" placeholder="9"></p>
 
         <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnal"  onclick="oblicz_sume()">
             Oblicz sumę
